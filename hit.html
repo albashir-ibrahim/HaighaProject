@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Albashir Ishaq Ibrahim">
+    <title>Haighatech</title>
+    <link rel="icon" href="hitfav.ico" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BootStrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigations -->
+    <nav class="header-navbar navbar navbar-expand-md navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="hit.html">
+          <img class="haigha-icon" src="hitLogo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="link-text nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#about-heading">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footerInfo">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="title-container container-fluid">
+      <div class="row">
+        <div class="logo-col col-lg-2">
+          <a href="hit.html"
+            ><img id="title-logo" src="icon.jpg" alt=""
+          /></a>
+        </div>
+        <div class="title-text">
+          <h1>HAIGHA INSTITUTE <br> OF TECHNOLOGIES</h1>
+          <h3 class="motto">Techonlogy With Your Language</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div class="jumbo-text jumbotron jumbotron-fluid">
+      <div class="container">
+        <h2 class="display-4">Learn By Doing...</h2>
+        <hr />
+        <p class="lead">
+          At Haigha we believe in Learning by doing, our Courses are designed to give learners the best <b>Hands on</b> experience through working on <em>real world projects</em>. 
+        </p>
+      </div>
+    </div>
+
+    <!-- call to action -->
+    <div class="cta-div container-fluid">
+      <div class="col">
+        <h3>Build <span class="intern-grade hitWork"><u>internship-grade</u></span> projects and gain real engineering experience with in demand skills at HIT today.</h3>
+      </div>
+    </div>
+
+    <!-- two sides -->
+    <div class="two-side container-fluid">
+      <h2 class="how-it-works">how <span class="hitWork">HIT</span> works</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="twoSideText">Register for a Course</h2>
+          <p>Select and register a course from a list of our specialization courses which are designed to help you master a skill. choose time for classes and begin attending lectures at your choosing time.</p>
+          <h2 class="twoSideText">Hands on project</h2>
+          <p>All of our specialization courses includes hands on projects which are based on real skills development, real work experience and most in demand for workforce. you need to complete all projects in your specialization to earn a Certificate.</p> 
+          <h2 class="twoSideText">Earn a Certificate</h2>
+          <p>At the end of your program you will be challenged to complete a final project based on your specialization, after completing the project a Certificate will be presented to you which you can share with your prospective employers and professional network.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="side-image" src="images/twoside.jpeg" alt="side-image">
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+    <!--- Fixed background -->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed">
+        <div class="hello">
+          <h4>Click the button below to visit HAIGHA INSTITUTE OF TECHNOLOGY</h4>
+          <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Visit HIT</a></button>
+        </div>
+        </div>
+      </div>
+    </figure>
+
+    <div id="courses" class="course-title">
+      <h2 class="how-it-works">Specializations and Courses</h2>
+    </div>
+
+    <!-- list of courses -->
+    <div class="list-card row row-cols-1 row-cols-md-4">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/ain.jpg" class="card-img-top" alt="ai-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Artificial Inteligence</h5>
+            <h6>Price: <span><del>N60,000</del></span>  N50,000</h6>
+            <p class="card-text">AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone--especially your non-technical colleagues--to take. .</p>
+            <button class="btn btn-outline-success btn-lg"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/androidn.jpg" class="card-img-top" alt="android-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Android App Development</h5>
+            <h6>Price: <span><del>N50,000</del></span>  N40,000</h6>
+            <p class="card-text">Launch Your Android App Development Career. Master the knowledge and skills necessary to develop maintainable mobile computing apps.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/database.png" class="card-img-top" alt="database-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Advanced Databases</h5>
+            <h6>Price: <span> <del>N30,000</del></span> N20,000</h6>
+            <p class="card-text">Start your career on Data Science!. Apply strategies and tools to develop any kind of information system.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/desktopn.jpg" class="card-img-top" alt="desktop-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Desktop Software Development</h5>
+            <h6>Price: <span><del>N40,000</del></span> N30,000</h6>
+            <p class="card-text">C# is a really good language for learning how to program and then programming professionally This course doesn't assume you have any previous programming experience. Don't worry.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-card row row-cols-1 row-cols-md-4">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/embededn.jpg" class="card-img-top" alt="embeded-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Embeded Systems</h5>
+            <h6>Price: <span><del>N40,000</del></span> N30,000</h6>
+            <p class="card-text">This course is focused on giving you real world coding experience and hands on project work with ARM based Microcontrollers. You will learn how to implement software configuration management and develop embedded software applications..</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/iotn.jpg" class="card-img-top" alt="iot-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Internet Of Things(IoT)</h5>
+            <h6><span><del>N50,000</del></span> N40,000</h6>
+            <p class="card-text"> In this first class in the specialization you will learn the importance of IoT in society, the current components of typical IoT devices and trends for the future.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/webn.jpeg" class="card-img-top" alt="web-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Web Development(Full-Stack)</h5>
+            <h6>Price: <span><del>N70,000</del></span> N50,000</h6>
+            <p class="card-text">Build Complete Web and Hybrid Mobile Solutions. Master front-end web, hybrid mobile app and server-side development in three comprehensive courses.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/courses/ict.jpg" class="card-img-top" alt="ict-pic">
+          <div class="card-body">
+            <h5 class="coourseTitle card-title">Diploma in Computer Applications</h5>
+            <h6>Price: <span><del>N30,000</del></span> N20,000</h6>
+            <p class="card-text">Major hardware components of a computer system, Different types of software on a computer system, Graphics using Corel Draw and all Ms Office Apps.</p>
+            <button class="btn btn-lg btn-outline-success"><a href="/hit.html">Learn More</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<!-- Testimonials -->
+
+<section id="testimonials">
+    <div
+      id="testimonials-carousel"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">
+            I joined HIT with no knowledge of Web Development or Coding Experience, But in less than a month I designed and deploy my first website on the internet. Thanks to HIT for the experience.
+          </h2>
+          <img
+            class="testimonials-image"
+            src="images/abu.jpeg"
+            alt="user"
+          />
+          <em>Abubakar, Maiduguri</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">
+            I taught programming is magic until i joined HIT where they unlock all the mystries behind it for me. I Like their teaching style it is very engaging.
+          </h2>
+          <img
+            class="testimonials-image"
+            src="images/gaj.jpeg"
+            alt="user"
+          />
+          <em>Gajimi, Maiduguri</em>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#testimonials-carousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#testimonials-carousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!--- Connect -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h2 class="display-4">Connect</h2>
+      </div>
+      <div class="col-12 social padding">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!--- Footer -->
+  <footer id="footerInfo">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="contactInfo col-md-4">
+          <img class="haigha-icon" src="haigha-icon.jpg" alt="logo" />
+          <hr class="light" />
+          <p><a class="phone" href="tel:+2348136696599">+234 8136696599</a></p>
+          <p>
+          <a href="tel:+2347036342665">+234 7036342665</a></p>
+          <p class="phone"><a href="mailto:haigha4@gmail.com">haigha4@gmail.com</a></p>
+          <p>
+            New G.R.A Opp. Maimusari Pri. Sch. <br> Bama Road.
+          </p>
+          <p>Maiduguri, Borno, 103609</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light" />
+          <h5>Working Hours</h5>
+          <hr class="light" />
+          <p>Monday to Saturday</p>
+          <p>Time: 10am - 4pm</p>
+          <p>Sunday: closed</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light" />
+          <h5>Navigation</h5>
+          <hr class="light" />
+          <ul id="footer-links">
+            <li class="footer-list"><a href="/index.html">Home</a></li>
+            <li class="footer-list"><a href="#courses">Courses</a></li>
+            <li class="footer-list"><a href="/about.html">About</a></li>
+            <li class="footer-list"><a href="#footerInfo">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <hr class="light-100" />
+          <h5>&copy; haighatech.com</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery, Popper and javascript plugins -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
